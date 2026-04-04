@@ -5,12 +5,12 @@
 
 [project]
 name = "streamlit-app"
-requires-python = ">= 3.9"
+requires-python = ">=3.11,<3.14"
 version = "0.0.1"
 description = ""
 dependencies = [
-    "streamlit[snowflake]",
-    "snowflake-snowpark-python"
+    "streamlit[snowflake]", 
+    "snowflake-snowpark-python[pandas]>=1.11.0,<1.15.0"
 ]
 
 [tool.uv]
