@@ -11,7 +11,7 @@ description = ""
 dependencies = [
     "streamlit[snowflake]", 
     "snowflake-snowpark-python[pandas]>=1.11.0,<1.15.0",
-    "setuptools"
+    "setuptools>=65.0"
 ]
 
 [tool.uv]
