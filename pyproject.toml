@@ -12,7 +12,7 @@ dependencies = [
     "streamlit[snowflake]", 
     "snowflake-snowpark-python[pandas]>=1.11.0,<1.15.0",
     "setuptools>=65.0,<82.0.0",
-    "request"
+    "requests"
 ]
 
 [tool.uv]
